@@ -1,0 +1,42 @@
+:root {
+    --styling-headings: 'Tektur', Tektur, sans-serif;
+    --styling-paragraph: 'Raleway', Raleway, sans-serif;
+    --Principal-Color: #F6F0FA;
+    --Secondary-color: #cdc1d7;
+    --Accent1-color: #271939;
+    --Accent2-color: #0C2032;
+    text-decoration: none;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero img{
+    width: 100%;
+}
+
+#hero article img {
+    width: 200px;
+    float: right;
+}
+
+article{
+    position: absolute;
+    top: 100px;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(246, 240, 250, .50);
+    padding: 1rem;
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(246, 240, 250, .50);
+}
