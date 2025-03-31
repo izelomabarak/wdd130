@@ -7,12 +7,14 @@
     --Accent2-color: #0C2032;
     text-decoration: none;
 }
-
+header {
+    display: grid;
+}
 #hero {
     position: relative;
 }
 
-#hero img{
+#hero img {
     width: 100%;
 }
 
@@ -21,7 +23,7 @@
     float: right;
 }
 
-article{
+article {
     position: absolute;
     top: 100px;
     width: 80%;
@@ -32,11 +34,12 @@ article{
     padding: 1rem;
 }
 
-h1{
+h1 {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     text-align: center;
+    font:var(--styling-headings);
     background-color: rgba(246, 240, 250, .50);
 }
