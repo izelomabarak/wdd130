@@ -9,6 +9,7 @@
 }
 header {
     display: grid;
+    grid-template-columns: 150px auto;
 }
 #hero {
     position: relative;
